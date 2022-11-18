@@ -1,0 +1,445 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* Style the header */
+.header {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Style the top navigation bar */
+  .topnav {
+    overflow: hidden;
+    background-color: rgb(77, 171, 218);
+  }
+  
+  /* Style the topnav links */
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  /* Change color on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+    padding: 15px;
+  }
+  /*
+  .topnav .search-container {
+    float: right;
+  }
+  
+  .topnav input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+  }
+  
+  .topnav .search-container button {
+    float: right;
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .topnav .search-container button:hover {
+    background: #ccc;
+  }
+*/
+
+* {
+  box-sizing: border-box;
+}
+
+form.example input[type=text] {
+  padding: 15px;
+  font-size: 17px;
+  border: 0.1px solid #2196F3;
+  float: right;
+  width: 70%;
+  background: #2196F3;
+  margin-right: -500px;
+}
+
+
+form.example button {
+  float: right;
+  width: 20%;
+  padding: 16px;
+  background: #2196F3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid#2196F3;
+  border-left: none;
+  cursor: pointer;
+margin-right: -300px;
+}
+
+::placeholder{
+  color: white;
+}
+/*
+form.example button:hover {
+  background: #0b7dda;
+}
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+*/
+/*TOPNAV TWO*/
+
+.topnav2 {
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    top: -230px;
+    left: 35px;
+  }
+  
+  /* Style the topnav links */
+  .topnav2 a {
+    float: left;
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+  }
+  
+  /* Change color on hover */
+  .topnav2 a:hover {
+    background-color: rgb(89, 191, 232);
+    color: black;
+  }
+
+  /*DESCRIPTION*/
+.description {
+  position: relative;
+  top: -220px;
+  left: 50px;
+}
+.description img{
+    float: right;
+    padding-right: 100px;
+    height: 280px;
+    width: 500px;
+    position: relative;
+    top: -40px;
+}
+hr.dashed {
+  border-top: 3px dashed rgb(86, 162, 212); 
+  position: relative;
+  top: -240px;
+  width: 95%;
+}
+.description2 {
+  position: relative;
+  top: -220px;
+  left: 50px;
+}
+hr.dashed2 {
+  border-top: 3px dashed rgb(86, 162, 212); 
+  position: relative;
+  top: -190px;
+  left: 50px;
+  margin-right: 800px;
+}
+
+.description3 {
+  position: relative;
+  top: -180px;
+  left: 50px;
+}
+hr.dashed3 {
+  border-top: 3px dashed rgb(86, 162, 212); 
+  position: relative;
+  top: -165px;
+  left: 50px;
+  margin-right: 800px;
+}
+  
+.description4 {
+  position: relative;
+  top: -160px;
+  left: 50px;
+}
+hr.dashed4 {
+  border-top: 3px dashed rgb(86, 162, 212); 
+  position: relative;
+  top: -145px;
+  left: 50px;
+  margin-right: 800px;
+}
+
+.description5 {
+  position: relative;
+  top: -140px;
+  left: 50px;
+}
+hr.dashed5 {
+  border-top: 3px dashed rgb(86, 162, 212); 
+  position: relative;
+  top: -130px;
+  left: 50px;
+  margin-right: 800px;
+}
+
+.description6 {
+  position: relative;
+  top: -130px;
+  left: 50px;
+}
+hr.dashed6 {
+  border-top: 3px dashed rgb(86, 162, 212); 
+  position: relative;
+  top: -120px;
+  left: 50px;
+  margin-right: 800px;
+}
+
+.description7 {
+  position: relative;
+  top: -120px;
+  left: 50px;
+}
+hr.dashed7 {
+  border-top: 3px dashed rgb(86, 162, 212); 
+  position: relative;
+  top: -480px;
+  left: 50px;
+  margin-right: 800px;
+}
+
+.button {
+  background-color: #2a8bb8;
+  border: none;
+  color: white;
+  padding: 15px 20px;
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 20px;
+  cursor: pointer;
+  position: relative;
+  top: -380px;
+  left: 30px;
+}
+.first{
+  color: white;
+}
+.first .first-txt {
+  position: relative;
+  left: 50px;
+  top: -400px;
+}
+.first .second-txt {
+  position: relative;
+  left: 50px;
+  top: -395px;
+}
+.first .third-txt {
+  position: relative;
+  left: 50px;
+  top: -395px;
+}
+
+/*FAQ SECTION*/
+@import url('https://fonts.googleapis.com/css?family=Hind:300,400&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.description7 {
+  font-family: 'Hind', sans-serif;
+  background: #fff;
+  color: #4d5974;
+  min-height: 100vh;
+}
+.description7{
+  position: relative;
+  right: 50px;
+}
+.container {
+  width: 43rem;
+}
+
+.accordion .accordion-item {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.accordion .accordion-item button[aria-expanded='true'] {
+  border-bottom: 1px solid #03b5d2;
+}
+
+.accordion button {
+  position: relative;
+  display: block;
+  text-align: left;
+  width: 100%;
+  padding: 1em 0;
+  color: #7288a2;
+  font-size: 1.15rem;
+  font-weight: 400;
+  border: none;
+  background: none;
+  outline: none;
+}
+
+.accordion button:hover,
+.accordion button:focus {
+  cursor: pointer;
+  color: #03b5d2;
+}
+
+.accordion button:hover::after,
+.accordion button:focus::after {
+  cursor: pointer;
+  color: #03b5d2;
+  border: 1px solid #03b5d2;
+}
+
+.accordion button .accordion-title {
+  padding: 1em 1.5em 1em 0;
+}
+
+.accordion button .icon {
+  display: inline-block;
+  position: absolute;
+  top: 18px;
+  right: 0;
+  width: 22px;
+  height: 22px;
+  border: 1px solid;
+  border-radius: 22px;
+}
+
+.accordion button .icon::before {
+  display: block;
+  position: absolute;
+  content: '';
+  top: 9px;
+  left: 5px;
+  width: 10px;
+  height: 2px;
+  background: currentColor;
+}
+.accordion button .icon::after {
+  display: block;
+  position: absolute;
+  content: '';
+  top: 5px;
+  left: 9px;
+  width: 2px;
+  height: 10px;
+  background: currentColor;
+}
+
+.accordion button[aria-expanded='true'] {
+  color: #03b5d2;
+}
+.accordion button[aria-expanded='true'] .icon::after {
+  width: 0;
+}
+.accordion button[aria-expanded='true'] + .accordion-content {
+  opacity: 1;
+  max-height: 9em;
+  transition: all 200ms linear;
+  will-change: opacity, max-height;
+}
+.accordion .accordion-content {
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: opacity 200ms linear, max-height 200ms linear;
+  will-change: opacity, max-height;
+}
+.accordion .accordion-content p {
+  font-size: 1rem;
+  font-weight: 300;
+  margin: 2em 0;
+}
+
+/*FOOTER ONE*/
+.footerone{
+  background-color: #26a0ec;
+  height: 190px;
+}
+ .footer h4 {
+  text-align: center;
+  color: white;
+ }
+ .footer h1{
+  text-align: center;
+  color: white;
+ }
+* {
+  box-sizing: border-box;
+}
+
+form.example3 input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 0.1px  #23659b;
+  float: left;
+  width: 50%;
+  background: #0f8aed;
+  cursor: pointer;
+  text-align: center;
+}
+.footerone form{
+  text-align: center;
+}
+.footer form .number{
+  margin-right: -1100px;
+  color: white;
+}
+.footer .btn{
+  align-items: center;
+  margin-top: -50px;
+  margin-left: 550px;
+  width: 50%;
+}
+
+  
+/*FOOTER TWO*/
+
+.footer-two{
+  background-color: darkblue;
+  height: 80%;
+
+}
+.footer-two hr{
+  border: 1px solid grey;
+  width: 90%;
+}
+.footer-two span{
+  align-items: center;
+}
+.footer-two li {
+  color: rgb(255, 255, 255);
+}
+.footer-two h3{
+  color: white;
+}
+
